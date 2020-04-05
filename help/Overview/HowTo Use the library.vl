@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="Tys3r9WrvYWPO5zHRbX5lK">
         <Canvas Id="NI6DEUIeox9NoNZxqExSq9" CanvasType="Group">
-          <Node Bounds="734,190,145,19" Id="C3NcTKVowUlNfnVuuX6ZFR">
+          <Node Bounds="700,190,145,19" Id="C3NcTKVowUlNfnVuuX6ZFR">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -32,7 +32,7 @@
             <Pin Id="EWFfXcSseVzLGeGeIjQhPy" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="SCf9ooym49rOUPZZRKLqaL" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="TeXpX4ZtObZPTcVBMhUjKv" Comment="File Path" Bounds="701,146,84,15" ShowValueBox="true" isIOBox="true" Value="bounds.xml">
+          <Pad Id="TeXpX4ZtObZPTcVBMhUjKv" Comment="File Path" Bounds="735,146,84,15" ShowValueBox="true" isIOBox="true" Value="bounds.xml">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -42,6 +42,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetTitle" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="CFuibqe5F4FMBdsvBmb3Xm" Name="Input" Kind="InputPin" />
             <Pin Id="JQ5VUQpOYJaLkSLpFQ6bDs" Name="Title" Kind="InputPin" DefaultValue="HELLO FORM">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -56,6 +57,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetAlwaysOnTop" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="C5f2La3JXeENQRj0j5LIO6" Name="Input" Kind="InputPin" />
             <Pin Id="AdP8hr4bbNyQZabknElV6W" Name="On Top" Kind="InputPin" DefaultValue="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -69,6 +71,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetShowIcon" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="FOwnefcOBsyOkjOvetStc5" Name="Input" Kind="InputPin" />
             <Pin Id="ViPgRNewKNALdxa6Cp7gpA" Name="Show Icon" Kind="InputPin" DefaultValue="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -82,6 +85,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetBorderStyle" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="OIWGTZoWhNyLYN1YTzGwhY" Name="Input" Kind="InputPin" />
             <Pin Id="GiYpF1RcUTUL3zucjNONhm" Name="Border Style" Kind="InputPin" DefaultValue="Sizable">
               <p:TypeAnnotation LastCategoryFullName="System.Windows.Forms" LastSymbolSource="System.Windows.Forms.dll">
@@ -95,6 +99,7 @@
               <Choice Kind="ProcessAppFlag" Name="SetCloseHandler" />
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="FXru0AXD71yNNvcL1wLXUS" Name="Input" Kind="InputPin" />
             <Pin Id="LUwdYz25ugTNeu2UZv0hRG" Name="Handler" Kind="InputPin" />
             <Pin Id="VooFJZbjH9xLFnPJf8HqiV" Name="Output" Kind="OutputPin" />
@@ -106,6 +111,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DialogCloseHandler" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="Psyt7EgVboWNtPZJKTvHyV" Name="Caption" Kind="InputPin" />
             <Pin Id="Oz8PX2Id0mpNXtQPIIngnm" Name="Text" Kind="InputPin" />
             <Pin Id="R34zeP4F3YrL3cYnn64nPF" Name="Buttons" Kind="InputPin" />
@@ -118,6 +124,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetControlBox" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="LO86xSMjgpqLdUwQUEqt88" Name="Input" Kind="InputPin" />
             <Pin Id="VD2bcu9Kx61N5NCU9e4Y1Z" Name="Show Control Box" Kind="InputPin" DefaultValue="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -131,6 +138,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetIcon" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="IvqPinDwzsEPbpvq0ildQ6" Name="Input" Kind="InputPin" />
             <Pin Id="T30pGLeeOi9L46mTDvjUym" Name="Icon" Kind="InputPin" DefaultValue="..\..\Resources\SchemaLogo2-01.ico">
               <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
@@ -191,14 +199,14 @@
               <Choice Kind="TypeFlag" Name="FormBorderStyle" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="699,73,87,19" Id="T8VwkDaUUqrNP7JUG0lihm">
+          <Node Bounds="733,73,87,19" Id="T8VwkDaUUqrNP7JUG0lihm">
             <p:NodeReference LastCategoryFullName="System.Application" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
             </p:NodeReference>
             <Pin Id="EImhBmxjG2dPvL9so7nl9p" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="811,72,77,19" Id="Oj7I1BIOOoqPRBqLmYynMQ">
+          <Node Bounds="845,72,77,19" Id="Oj7I1BIOOoqPRBqLmYynMQ">
             <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="SystemFolder" />
@@ -206,7 +214,7 @@
             <Pin Id="RWtTcO4OlosP2ikZVaYps6" Name="Special Folder" Kind="InputPin" />
             <Pin Id="Bd9Pdzip5ZaLZ9NGEB0jP3" Name="Result" Kind="OutputPin" />
           </Node>
-          <Node Bounds="699,104,57,19" Id="ATO6efS1EllOK39QH9LgDO">
+          <Node Bounds="733,104,57,19" Id="ATO6efS1EllOK39QH9LgDO">
             <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Filename (Join)" />
@@ -238,6 +246,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetMinimizeBox" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="G1O9qRm14HfPGjqbw9aFxx" Name="Input" Kind="InputPin" />
             <Pin Id="PQvvF2lD1VpNoYb3nwnynW" Name="Show Minimize Box" Kind="InputPin" DefaultValue="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -251,6 +260,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetMaximizeBox" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="SWloijpM5dRO5I5YwTKXzs" Name="Input" Kind="InputPin" />
             <Pin Id="VCbZ6mssMObOCzS0yo8ZMJ" Name="Show Maximize Box" Kind="InputPin" DefaultValue="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -354,6 +364,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PreventClose" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="HwN2XoBG4wtO4Y7GaunJnJ" Name="Input" Kind="InputPin" />
             <Pin Id="HPO3DYFse4INCe5cHI8ahX" Name="Prevent Close" Kind="InputPin" />
             <Pin Id="LHtw2IZHGV9O1BE5Fzpv5N" Name="Output" Kind="OutputPin" />
@@ -402,6 +413,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Close" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="FAnyq6hcJC3NspzzXUiHh5" Name="Input" Kind="InputPin" />
             <Pin Id="LnXF5rO5hmVM5VUlfzl4UB" Name="Close" Kind="InputPin" />
             <Pin Id="OGqNIclW4XzPXcLO8XwCMS" Name="Input" Kind="OutputPin" />
@@ -450,9 +462,10 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="StoreBounds" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="H8639cPXRSsNkAWuY3o7EA" Name="Initial Window Bounds" Kind="InputPin" />
-            <Pin Id="CPZ5l0NnbxfOVv8JPccYha" Name="File Path" Kind="InputPin" />
             <Pin Id="HwKVwtfnZqdMKs7sJiSRFF" Name="Input" Kind="InputPin" />
+            <Pin Id="CPZ5l0NnbxfOVv8JPccYha" Name="File Path" Kind="InputPin" />
             <Pin Id="Pr6OBpcHjdKPlnEtgwD90i" Name="Initial Window Bounds" Kind="OutputPin" />
             <Pin Id="U0Lc9PTmQ8eMVMpPGWCofW" Name="Output" Kind="OutputPin" />
           </Node>
@@ -502,6 +515,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetCursor" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="NrWGjnyYRLXNfnXo3BJNQz" Name="Input" Kind="InputPin" />
             <Pin Id="B0quKwTQueVPEcNXvkVWUj" Name="Cursor" Kind="InputPin" />
             <Pin Id="Cpnvs1AAywELVkOsT1B0ID" Name="Output" Kind="OutputPin" />
@@ -601,5 +615,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="D85EUa2LybpPkkR9EH7VGa" Location="VL.Skia" Version="2020.1.0" />
-  <DocumentDependency Id="N4xqoJYwhtFLJF3KryDtew" Location="../VL.WinFormsUtils.vl" />
+  <DocumentDependency Id="KMC08MUmvUeQLDwzMMAfIl" Location="../../../../../../../../../../dev/vl/VL.WinFormsUtils/VL.WinFormsUtils.vl" />
 </Document>
