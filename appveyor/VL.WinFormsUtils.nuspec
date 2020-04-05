@@ -9,9 +9,9 @@
     <projectUrl>https://github.com/dominikjancik/VL.WinFormsUtils</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Nodes for VL exposing some useful functions of the Windows Forms API</summary>
-    <description>WinForms utils for VL</description>
+    <description>WinForms utils for VL. Store Skia Renderer size, location and fullscreen state to file. Set useful properties on Form windows.</description>
     <copyright>Copyright © 2020 Dominik Jancik</copyright>
-    <tags>VL, opencv, computervision, video, calibration, detection, recognition, filter, tracking, camera, blob, marker, ml</tags>
+    <tags>VL, winforms, windows forms, renderer, skia</tags>
 	<license type="expression">MIT</license>
     <dependencies>
     </dependencies>
