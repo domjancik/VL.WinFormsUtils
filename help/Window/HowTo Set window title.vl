@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="JtzjFpIzJfTM9JXl4Ocg6C" LanguageVersion="2020.1.0.53" Version="0.128">
+  <NugetDependency Id="DS4YVxY3i5MQGFckd3aOo2" Location="VL.CoreLib" Version="2020.1.0" />
+  <Patch Id="PJ4Z7VF0yp9NWkC2I4vy1c">
+    <Canvas Id="UepJT5MaLZENzYG4YRMmKm" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="BI1DGEu4UeQN7IUbFO5n9P">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Tys3r9WrvYWPO5zHRbX5lK">
+        <Canvas Id="NI6DEUIeox9NoNZxqExSq9" CanvasType="Group">
+          <Node Bounds="734,250,145,19" Id="C3NcTKVowUlNfnVuuX6ZFR">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="DRJCUrt5xcQQRGhrSJwvov" Name="Bounds" Kind="InputPin" DefaultValue="880, 397, 600, 400">
+              <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
+                <Choice Kind="TypeFlag" Name="Rectangle" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="Km3puwYiaSUOqXOIcl2nai" Name="Input" Kind="InputPin" />
+            <Pin Id="Cft7Svwec0UOY1Ti24dg8Z" Name="Color" Kind="InputPin" />
+            <Pin Id="G2JL7yAyBPyOcktKkXTCID" Name="Clear" Kind="InputPin" />
+            <Pin Id="R7xKbYpR1PHOl0qGtzGr6F" Name="Space" Kind="InputPin" />
+            <Pin Id="Q2N3mioTCryNHzgNUiP5UG" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="QwzhNgAps6XNttbkIeTM8B" Name="VSync" Kind="InputPin" />
+            <Pin Id="SumlhHNHhutOzuRXGH6W6z" Name="Enabled" Kind="InputPin" />
+            <Pin Id="AI1d2AhscyFNbIiK5LT4D1" Name="Form" Kind="OutputPin" />
+            <Pin Id="EWFfXcSseVzLGeGeIjQhPy" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="SCf9ooym49rOUPZZRKLqaL" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="734,429,50,19" Id="SsJcqix8dzGLIvu86AY7lX">
+            <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="SetTitle" />
+            </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="CFuibqe5F4FMBdsvBmb3Xm" Name="Input" Kind="InputPin" />
+            <Pin Id="JQ5VUQpOYJaLkSLpFQ6bDs" Name="Title" Kind="InputPin" DefaultValue="HELLO FORM">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="MreIpy8OejNOjzguowJkLQ" Name="Default" Kind="InputPin" />
+            <Pin Id="UbOxIjVSzjbQSIkhykGKYE" Name="Input" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="757,397,55,26" Id="T6qw6dNjEr8P4W0a3PUJ54">
+            <p:NodeReference LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToUpper" />
+              <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="KmNtxtrT1ygLNzYX1OR4Je" Name="Input" Kind="StateInputPin" />
+            <Pin Id="KEMpheMEltoMsZpp3E8Va9" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="LqeR4VDXt62OgpnXqrzJkx" Name="Apply" Kind="InputPin" />
+          </Node>
+          <Pad Id="SUgjR0GX5CCLpr4unmXkyT" Comment="Title" Bounds="759,383,98,15" ShowValueBox="true" isIOBox="true" Value="The Great Formby">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="787,320,45,19" Id="SsYMXKY2w2jNAbVk9LDoqk">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="LFO" />
+            </p:NodeReference>
+            <Pin Id="MCrpHBweDpaLSfyuE30J81" Name="Period" Kind="InputPin" DefaultValue="2.5">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="Rbfcn3nd019MkrO34vJPtF" Name="Pause" Kind="InputPin" />
+            <Pin Id="IkxDtaDzcDGQLiDsNu9CYk" Name="Reset" Kind="ApplyPin" />
+            <Pin Id="UUdARbNibucNeXnGhporMk" Name="Phase" Kind="OutputPin" />
+            <Pin Id="ClHEL7nchstQVa1bFt7cpo" Name="On New Cycle" Kind="OutputPin" />
+            <Pin Id="P9eXoN0lKuKOuF8lj64L0D" Name="Cycles" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="807,347,48,19" Id="BKLQn1JXPprNvTYyRwnJUF">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Toggle" />
+            </p:NodeReference>
+            <Pin Id="LNYdTDbjBDNOl3WAf0MdWL" Name="Flip" Kind="ApplyPin" />
+            <Pin Id="B8rQozskpvHNrNGnY1o6W7" Name="Reset" Kind="ApplyPin" />
+            <Pin Id="FIPeXRTSpJ8Na2MWUuBHUq" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Overlay Id="No2rSDxg6j6OKLWrVBzi0X" Name="Title" Bounds="344,288,572,190" />
+          <Pad Id="VAo3JNS3zlDQWCgOIisEKu" Bounds="345,332,288,114" ShowValueBox="true" isIOBox="true" Value="Set the title of your Form.&#xD;&#xA;&#xD;&#xA;Show your app's incredible name, the currently opened file, the weather or whatever else you might want to put in the top-left corner of the window and the task bar.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="Vbv1NRZrmL1PWPP2GExvOw" Name="Create" />
+        <Patch Id="JXMbYVVXMCoMJwMxObZP2x" Name="Update" />
+        <ProcessDefinition Id="CBpHXh7tDPrORixwghTsGm">
+          <Fragment Id="JFF2PBPVt8rLO8XcVSzF2e" Patch="Vbv1NRZrmL1PWPP2GExvOw" Enabled="true" />
+          <Fragment Id="MfBpO8eyclZMrJfrPmDQwu" Patch="JXMbYVVXMCoMJwMxObZP2x" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="TyugriP5gQ9NS4bFX08Rt2" Ids="SUgjR0GX5CCLpr4unmXkyT,KmNtxtrT1ygLNzYX1OR4Je" />
+        <Link Id="JIa83sbtAwaPYQkJd34M6d" Ids="KEMpheMEltoMsZpp3E8Va9,JQ5VUQpOYJaLkSLpFQ6bDs" />
+        <Link Id="JR8AsywaAmrPrBIGNJbp6d" Ids="ClHEL7nchstQVa1bFt7cpo,LNYdTDbjBDNOl3WAf0MdWL" />
+        <Link Id="Nvd65mFi34cLgSu5695F1U" Ids="FIPeXRTSpJ8Na2MWUuBHUq,LqeR4VDXt62OgpnXqrzJkx" />
+        <Link Id="AyXmMHqijtqLjirXQvA1j9" Ids="AI1d2AhscyFNbIiK5LT4D1,CFuibqe5F4FMBdsvBmb3Xm" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="D85EUa2LybpPkkR9EH7VGa" Location="VL.Skia" Version="2020.1.0" />
+  <DocumentDependency Id="KMC08MUmvUeQLDwzMMAfIl" Location="../../../../../../../../../../dev/vl/VL.WinFormsUtils/VL.WinFormsUtils.vl" />
+</Document>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="JtzjFpIzJfTM9JXl4Ocg6C" LanguageVersion="2020.1.0.53" Version="0.128">
+  <NugetDependency Id="DS4YVxY3i5MQGFckd3aOo2" Location="VL.CoreLib" Version="2020.1.0" />
+  <Patch Id="PJ4Z7VF0yp9NWkC2I4vy1c">
+    <Canvas Id="UepJT5MaLZENzYG4YRMmKm" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="BI1DGEu4UeQN7IUbFO5n9P">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Tys3r9WrvYWPO5zHRbX5lK">
+        <Canvas Id="NI6DEUIeox9NoNZxqExSq9" CanvasType="Group">
+          <Node Bounds="610,190,145,19" Id="C3NcTKVowUlNfnVuuX6ZFR">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="DRJCUrt5xcQQRGhrSJwvov" Name="Bounds" Kind="InputPin" />
+            <Pin Id="Km3puwYiaSUOqXOIcl2nai" Name="Input" Kind="InputPin" />
+            <Pin Id="Cft7Svwec0UOY1Ti24dg8Z" Name="Color" Kind="InputPin" />
+            <Pin Id="G2JL7yAyBPyOcktKkXTCID" Name="Clear" Kind="InputPin" />
+            <Pin Id="R7xKbYpR1PHOl0qGtzGr6F" Name="Space" Kind="InputPin" />
+            <Pin Id="Q2N3mioTCryNHzgNUiP5UG" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="QwzhNgAps6XNttbkIeTM8B" Name="VSync" Kind="InputPin" />
+            <Pin Id="SumlhHNHhutOzuRXGH6W6z" Name="Enabled" Kind="InputPin" />
+            <Pin Id="AI1d2AhscyFNbIiK5LT4D1" Name="Form" Kind="OutputPin" />
+            <Pin Id="EWFfXcSseVzLGeGeIjQhPy" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="SCf9ooym49rOUPZZRKLqaL" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="734,352,41,19" Id="NNdQGufWB2pPPs3lV1IWL7">
+            <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Close" />
+            </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="FAnyq6hcJC3NspzzXUiHh5" Name="Input" Kind="InputPin" />
+            <Pin Id="LnXF5rO5hmVM5VUlfzl4UB" Name="Close" Kind="InputPin" />
+            <Pin Id="OGqNIclW4XzPXcLO8XwCMS" Name="Input" Kind="OutputPin" />
+          </Node>
+          <Pad Id="F2FOTQY2SrEPveAQoQsfRk" Bounds="772,312,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="710,159,65,19" Id="MLJWRIyUhxgPWHwK0TyCDg">
+            <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
+            </p:NodeReference>
+            <Pin Id="KYpfX7KO8ukNIwDZuI0ZLY" Name="Async Notifications" Kind="InputPin" />
+            <Pin Id="EW88vgEWF5SO8Rzmt60yES" Name="Reset" Kind="InputPin" />
+            <Pin Id="H436E8wNChuPul6MGCg9oP" Name="Value" Kind="OutputPin" />
+            <Pin Id="K1O8lHs7SfwN13t7dG2k2T" Name="On Data" Kind="OutputPin" />
+          </Node>
+          <Overlay Id="DCnuYZOwxBFOvW09u6ZDxp" Name="Close from code" Bounds="346,285,820,107" />
+          <Pad Id="LbzBX6AUYW0ODHEJ4HBlbS" Bounds="346,327,303,63" ShowValueBox="true" isIOBox="true" Value="Is it time to end it? Don't wait and do it yourself.&#xD;&#xA;&#xD;&#xA;Close works just like pressing the close button.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="CycM3QUeJpsOzWWkcvmz81" Comment="Text" Bounds="632,112,50,15" ShowValueBox="true" isIOBox="true" Value="Close Me">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="630,131,85,19" Id="BpkxNujKMJDOIqWTqj7SOH">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia.Interaction" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Button" />
+            </p:NodeReference>
+            <Pin Id="Rrm2HJxoazOQLDNg1cBEeC" Name="Text" Kind="InputPin" />
+            <Pin Id="SoXZmJ46UBiPqORECuKlvz" Name="Bounds" Kind="InputPin" />
+            <Pin Id="Rkwy9JWBnqJNlKlOqbLkp7" Name="Paint" Kind="InputPin" />
+            <Pin Id="TI7BIn6PcdRLkuCVz15XBQ" Name="Button" Kind="InputPin" />
+            <Pin Id="PDy7p3kzB0oOPcmrCGz2Im" Name="Clip" Kind="InputPin" />
+            <Pin Id="GpyvhoEWcrXQXlkEwzdUyp" Name="Output" Kind="OutputPin" />
+            <Pin Id="D4DBujOwPU1LhhIPhhUgOX" Name="On Click" Kind="OutputPin" />
+          </Node>
+        </Canvas>
+        <Patch Id="Vbv1NRZrmL1PWPP2GExvOw" Name="Create" />
+        <Patch Id="JXMbYVVXMCoMJwMxObZP2x" Name="Update" />
+        <ProcessDefinition Id="CBpHXh7tDPrORixwghTsGm">
+          <Fragment Id="JFF2PBPVt8rLO8XcVSzF2e" Patch="Vbv1NRZrmL1PWPP2GExvOw" Enabled="true" />
+          <Fragment Id="MfBpO8eyclZMrJfrPmDQwu" Patch="JXMbYVVXMCoMJwMxObZP2x" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="TrMYlTylFJsM5vfgouiTqX" Ids="F2FOTQY2SrEPveAQoQsfRk,LnXF5rO5hmVM5VUlfzl4UB" />
+        <Link Id="K6qpNlpuV0hPrdq8XrpgMD" Ids="K1O8lHs7SfwN13t7dG2k2T,F2FOTQY2SrEPveAQoQsfRk" />
+        <Link Id="CXhxIxjl1pjOhzULVAMERo" Ids="GpyvhoEWcrXQXlkEwzdUyp,Km3puwYiaSUOqXOIcl2nai" />
+        <Link Id="A3DfwHevecAPFzrHVqKbqC" Ids="D4DBujOwPU1LhhIPhhUgOX,KYpfX7KO8ukNIwDZuI0ZLY" />
+        <Link Id="PLoMR85YaNoLqQhgo7Q3SE" Ids="CycM3QUeJpsOzWWkcvmz81,Rrm2HJxoazOQLDNg1cBEeC" />
+        <Link Id="J99IA5lmWD4PYLuasuzZ5f" Ids="AI1d2AhscyFNbIiK5LT4D1,FAnyq6hcJC3NspzzXUiHh5" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="D85EUa2LybpPkkR9EH7VGa" Location="VL.Skia" Version="2020.1.0" />
+  <DocumentDependency Id="KMC08MUmvUeQLDwzMMAfIl" Location="../../../../../../../../../../dev/vl/VL.WinFormsUtils/VL.WinFormsUtils.vl" />
+</Document>

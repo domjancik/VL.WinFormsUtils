@@ -18,7 +18,9 @@
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />
-    <file src="..\help\Overview\*.vl" target="help\Overview\" exclude="" />
-    <file src="..\help\Overview\*.png" target="help\Overview\" exclude="" />
+    <file src="..\help\Examples\*.vl" target="help\Examples\" exclude="" />
+    <file src="..\help\Examples\*.png" target="help\Examples\" exclude="" />
+    <file src="..\help\Window\*.vl" target="help\Window\" exclude="" />
+    <file src="..\help\Window\*.png" target="help\Window\" exclude="" />
   </files>
 </package>

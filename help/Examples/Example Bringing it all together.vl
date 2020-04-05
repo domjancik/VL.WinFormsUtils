@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SkXMbOasx62LYBA5aWfQBt" LanguageVersion="2020.1.0.53" Version="0.128">
+<Document xmlns:p="property" Id="JtzjFpIzJfTM9JXl4Ocg6C" LanguageVersion="2020.1.0.53" Version="0.128">
   <NugetDependency Id="DS4YVxY3i5MQGFckd3aOo2" Location="VL.CoreLib" Version="2020.1.0" />
   <Patch Id="PJ4Z7VF0yp9NWkC2I4vy1c">
     <Canvas Id="UepJT5MaLZENzYG4YRMmKm" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
@@ -206,7 +206,7 @@
             </p:NodeReference>
             <Pin Id="EImhBmxjG2dPvL9so7nl9p" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="845,72,77,19" Id="Oj7I1BIOOoqPRBqLmYynMQ">
+          <Node Bounds="922,72,77,19" Id="Oj7I1BIOOoqPRBqLmYynMQ">
             <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="SystemFolder" />
@@ -232,7 +232,7 @@
             </Pin>
             <Pin Id="IzukdnPicKvPKXoxgMXrTD" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="JD6y0fqZ03uP3Ma54OyMIy" Bounds="803,10,207,59" ShowValueBox="true" isIOBox="true" Value="Alternatively use SystemFolder to save in a standard directory such as Documents or AppData">
+          <Pad Id="JD6y0fqZ03uP3Ma54OyMIy" Bounds="913,10,207,59" ShowValueBox="true" isIOBox="true" Value="Alternatively use SystemFolder to save in a standard directory such as Documents or AppData">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -552,6 +552,15 @@
           <Overlay Id="IVyxll8H09PLcaSaKrNLLa" Name="Cursors" Bounds="345,1382,823,163" />
           <Pad Id="PSEWXnw9bL6NE2NZqN6GwZ" Bounds="348,1425,265,99" ShowValueBox="true" isIOBox="true" Value="Change the cursor icon to hint at possible actions.&#xD;&#xA;&#xD;&#xA;Check the WinFormsUtils.Cursors category for options.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="C4shaHs8vjMLIfeJ1gmcE4" Bounds="725,1,140,76" ShowValueBox="true" isIOBox="true" Value="Use ApplicationPath to keep the file next to your .vl file or exported .exe">
+            <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="SkXMbOasx62LYBA5aWfQBt" LanguageVersion="2020.1.0.53" Version="0.128">
+  <NugetDependency Id="DS4YVxY3i5MQGFckd3aOo2" Location="VL.CoreLib" Version="2020.1.0" />
+  <Patch Id="PJ4Z7VF0yp9NWkC2I4vy1c">
+    <Canvas Id="UepJT5MaLZENzYG4YRMmKm" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="BI1DGEu4UeQN7IUbFO5n9P">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Tys3r9WrvYWPO5zHRbX5lK">
+        <Canvas Id="NI6DEUIeox9NoNZxqExSq9" CanvasType="Group">
+          <Node Bounds="700,190,145,19" Id="C3NcTKVowUlNfnVuuX6ZFR">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="DRJCUrt5xcQQRGhrSJwvov" Name="Bounds" Kind="InputPin" />
+            <Pin Id="Km3puwYiaSUOqXOIcl2nai" Name="Input" Kind="InputPin" />
+            <Pin Id="Cft7Svwec0UOY1Ti24dg8Z" Name="Color" Kind="InputPin" />
+            <Pin Id="G2JL7yAyBPyOcktKkXTCID" Name="Clear" Kind="InputPin" />
+            <Pin Id="R7xKbYpR1PHOl0qGtzGr6F" Name="Space" Kind="InputPin" />
+            <Pin Id="Q2N3mioTCryNHzgNUiP5UG" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="QwzhNgAps6XNttbkIeTM8B" Name="VSync" Kind="InputPin" />
+            <Pin Id="SumlhHNHhutOzuRXGH6W6z" Name="Enabled" Kind="InputPin" />
+            <Pin Id="AI1d2AhscyFNbIiK5LT4D1" Name="Form" Kind="OutputPin" />
+            <Pin Id="EWFfXcSseVzLGeGeIjQhPy" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="SCf9ooym49rOUPZZRKLqaL" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Pad Id="TeXpX4ZtObZPTcVBMhUjKv" Comment="File Path" Bounds="735,146,84,15" ShowValueBox="true" isIOBox="true" Value="..\Overview\bounds.xml">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="QQULvcGCQYvPC9hJ6V6Sct" Bounds="339,34,284,184" ShowValueBox="true" isIOBox="true" Value="Don't make users set it again each time.&#xD;&#xA;&#xD;&#xA;On every change, the position, size and fullscreen state of the window will be saved to the specified file.&#xD;&#xA;&#xD;&#xA;When starting the app again, it will be loaded back to provide a seamless experience.&#xD;&#xA;&#xD;&#xA;Only works with SkiaRenderer.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="733,73,87,19" Id="T8VwkDaUUqrNP7JUG0lihm">
+            <p:NodeReference LastCategoryFullName="System.Application" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
+            </p:NodeReference>
+            <Pin Id="EImhBmxjG2dPvL9so7nl9p" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="911,72,77,19" Id="Oj7I1BIOOoqPRBqLmYynMQ">
+            <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="SystemFolder" />
+            </p:NodeReference>
+            <Pin Id="RWtTcO4OlosP2ikZVaYps6" Name="Special Folder" Kind="InputPin" />
+            <Pin Id="Bd9Pdzip5ZaLZ9NGEB0jP3" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="733,104,57,19" Id="ATO6efS1EllOK39QH9LgDO">
+            <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Filename (Join)" />
+            </p:NodeReference>
+            <Pin Id="I7jBijGjpwgOwitigMsdRN" Name="Directory" Kind="InputPin" />
+            <Pin Id="FXlUDk4SgS0PEr0XNfPMaU" Name="Filename" Kind="InputPin" DefaultValue="bounds">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="InHm4Xd7cHLQD5aNcdrDAO" Name="Extension" Kind="InputPin" DefaultValue="xml">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="IzukdnPicKvPKXoxgMXrTD" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="JD6y0fqZ03uP3Ma54OyMIy" Bounds="905,10,207,59" ShowValueBox="true" isIOBox="true" Value="Alternatively use SystemFolder to save in a standard directory such as Documents or AppData">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="666,217,73,19" Id="HVwmLEoqGsYN4RRfCa8R1m">
+            <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="StoreBounds" />
+            </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="H8639cPXRSsNkAWuY3o7EA" Name="Initial Window Bounds" Kind="InputPin" />
+            <Pin Id="HwKVwtfnZqdMKs7sJiSRFF" Name="Input" Kind="InputPin" />
+            <Pin Id="CPZ5l0NnbxfOVv8JPccYha" Name="File Path" Kind="InputPin" />
+            <Pin Id="Pr6OBpcHjdKPlnEtgwD90i" Name="Initial Window Bounds" Kind="OutputPin" />
+            <Pin Id="U0Lc9PTmQ8eMVMpPGWCofW" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Overlay Id="Ahy7ffwTyC5O3aqevRQyVf" Name="Bounds retention" Bounds="342,-15,823,294" />
+          <Pad Id="L9uwjziXS6zOGgnsVJkaPM" Bounds="724,0,140,76" ShowValueBox="true" isIOBox="true" Value="Use ApplicationPath to keep the file next to your .vl file or exported .exe">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="Vbv1NRZrmL1PWPP2GExvOw" Name="Create" />
+        <Patch Id="JXMbYVVXMCoMJwMxObZP2x" Name="Update" />
+        <ProcessDefinition Id="CBpHXh7tDPrORixwghTsGm">
+          <Fragment Id="JFF2PBPVt8rLO8XcVSzF2e" Patch="Vbv1NRZrmL1PWPP2GExvOw" Enabled="true" />
+          <Fragment Id="MfBpO8eyclZMrJfrPmDQwu" Patch="JXMbYVVXMCoMJwMxObZP2x" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="TlHKlVPjjmUL7IVTCN9bbe" Ids="EImhBmxjG2dPvL9so7nl9p,I7jBijGjpwgOwitigMsdRN" />
+        <Link Id="LqavgKIJp6lLTq1E5LvVzG" Ids="IzukdnPicKvPKXoxgMXrTD,TeXpX4ZtObZPTcVBMhUjKv" />
+        <Link Id="OFNeYuUX2K9MQEGTuy8TfN" Ids="TeXpX4ZtObZPTcVBMhUjKv,CPZ5l0NnbxfOVv8JPccYha" />
+        <Link Id="P32kQnYyBuSMvS4ERXlTUn" Ids="AI1d2AhscyFNbIiK5LT4D1,HwKVwtfnZqdMKs7sJiSRFF" />
+        <Link Id="IaqN0wzVfLXNsxm14HBQPb" Ids="Pr6OBpcHjdKPlnEtgwD90i,DRJCUrt5xcQQRGhrSJwvov" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="D85EUa2LybpPkkR9EH7VGa" Location="VL.Skia" Version="2020.1.0" />
+  <DocumentDependency Id="KMC08MUmvUeQLDwzMMAfIl" Location="../../../../../../../../../../dev/vl/VL.WinFormsUtils/VL.WinFormsUtils.vl" />
+</Document>
