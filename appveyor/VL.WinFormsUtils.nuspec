@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.WinFormsUtils</id>
+    <version>$version$</version>
+    <title>VL.WinFormsUtils</title>
+    <authors>Dominik Jancik</authors>
+    <owners>domj</owners>
+    <projectUrl>https://github.com/dominikjancik/VL.WinFormsUtils</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Nodes for VL exposing some useful functions of the Windows Forms API</summary>
+    <description>WinForms utils for VL</description>
+    <copyright>Copyright © 2020 Dominik Jancik</copyright>
+    <tags>VL, opencv, computervision, video, calibration, detection, recognition, filter, tracking, camera, blob, marker, ml</tags>
+	<license type="expression">MIT</license>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\help\*.vl" target="" exclude="" />
+    <file src="..\help\*.png" target="" exclude="" />
+  </files>
+</package>
