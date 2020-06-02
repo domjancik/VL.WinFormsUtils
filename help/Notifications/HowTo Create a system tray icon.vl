@@ -15,12 +15,12 @@
       </p:NodeReference>
       <Patch Id="A8tXDxcVV0lMG4osoJwrkz">
         <Canvas Id="O379wLvpVApLbFDBQHvo26" CanvasType="Group">
-          <Node Bounds="290,83,145,19" Id="HHUPtVUxAiwMYOxD7LgZBK">
+          <Node Bounds="142,125,145,19" Id="HHUPtVUxAiwMYOxD7LgZBK">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="Lbj7du5CEHGP3r8C8wtbz3" Name="Bounds" Kind="InputPin" DefaultValue="1012, 505, 426, 202">
+            <Pin Id="Lbj7du5CEHGP3r8C8wtbz3" Name="Bounds" Kind="InputPin" DefaultValue="1206, 549, 569, 372">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -36,7 +36,7 @@
             <Pin Id="ESMf7ZL2xBgNuSj6y16mpd" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="Uma85d5qVtoMnloYV8r1vN" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Node Bounds="290,569,65,19" Id="K9nMtRNVgCAMRBwtKukTsE">
+          <Node Bounds="142,625,65,19" Id="K9nMtRNVgCAMRBwtKukTsE">
             <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="NotifyIcon" />
@@ -58,7 +58,7 @@
             <Pin Id="M2FbiAjTgJGNm1tVHXJVpM" Name="On Double Click" Kind="OutputPin" />
             <Pin Id="K3kYY2mblo0NowaFyo5XVi" Name="On Context Menu Items Click" Kind="OutputPin" />
           </Node>
-          <Node Bounds="290,222,81,19" Id="E0QSjjhCNXmMoniKkL556R">
+          <Node Bounds="142,279,81,19" Id="E0QSjjhCNXmMoniKkL556R">
             <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetControlBox" />
@@ -71,7 +71,7 @@
             </Pin>
             <Pin Id="MzDrqy2uGe6MXJi1a7Kaoi" Name="Input" Kind="OutputPin" />
           </Node>
-          <Node Bounds="290,158,88,19" Id="VHqYiiqdDA9LGrozED1EnK">
+          <Node Bounds="142,215,88,19" Id="VHqYiiqdDA9LGrozED1EnK">
             <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetMinimizeBox" />
@@ -84,7 +84,7 @@
             </Pin>
             <Pin Id="AF7koJdvYHEO7Of9vqCMc3" Name="Input" Kind="OutputPin" />
           </Node>
-          <Node Bounds="290,190,91,19" Id="ON5Km3NvCRoP4gJvJvjpKz">
+          <Node Bounds="142,247,91,19" Id="ON5Km3NvCRoP4gJvJvjpKz">
             <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetMaximizeBox" />
@@ -97,7 +97,7 @@
             </Pin>
             <Pin Id="NbtxZkr6xOCQB0vwBIpLKz" Name="Input" Kind="OutputPin" />
           </Node>
-          <Node Bounds="290,126,81,19" Id="Ns6JTBzdXGWNFavfNesXoL">
+          <Node Bounds="142,183,81,19" Id="Ns6JTBzdXGWNFavfNesXoL">
             <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetBorderStyle" />
@@ -110,7 +110,7 @@
             </Pin>
             <Pin Id="RxZt1xFL7wqLxdP3ce7CmE" Name="Input" Kind="OutputPin" />
           </Node>
-          <Node Bounds="265,832,77,86" Id="GgZJMTKLLTdN7GZOdOoMaS">
+          <Node Bounds="115,851,77,86" Id="GgZJMTKLLTdN7GZOdOoMaS">
             <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
               <Choice Kind="ProcessAppFlag" Name="ForEach" />
               <CategoryReference Kind="Category" Name="Reactive" NeedsToBeDirectParent="true" />
@@ -129,9 +129,9 @@
                   </p:TypeAnnotation>
                 </Pin>
               </Patch>
-              <ControlPoint Id="HynwLroUnSQONzea1dBlwM" Bounds="269,840" />
-              <ControlPoint Id="QfshgYr8LLeLevEjF6NdC3" Bounds="295,911" />
-              <Node Bounds="290,870,40,19" Id="C3Hw4eU04zzLoMYFqqFJJh">
+              <ControlPoint Id="HynwLroUnSQONzea1dBlwM" Bounds="119,859" />
+              <ControlPoint Id="QfshgYr8LLeLevEjF6NdC3" Bounds="145,930" />
+              <Node Bounds="140,889,40,19" Id="C3Hw4eU04zzLoMYFqqFJJh">
                 <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Show" />
@@ -146,7 +146,7 @@
               </Node>
             </Patch>
           </Node>
-          <Pad Id="L32PbAogxcCM0BDEvdqhfJ" Comment="Context Menu Items" Bounds="352,413,75,65" ShowValueBox="true" isIOBox="true">
+          <Pad Id="L32PbAogxcCM0BDEvdqhfJ" Comment="Context Menu Items" Bounds="204,470,75,65" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -161,7 +161,7 @@
               <Item>Item 03</Item>
             </p:Value>
           </Pad>
-          <Pad Id="UFQ0Chl2vndOGta5WUQlqL" Bounds="370,549,247,78" ShowValueBox="true" isIOBox="true" Value="This guy will add an icon to your system tray. By default, it uses you app's icon and only shows up when the attached Renderer is minimized.">
+          <Pad Id="UFQ0Chl2vndOGta5WUQlqL" Bounds="221,598,247,78" ShowValueBox="true" isIOBox="true" Value="This guy will add an icon to your system tray. By default, it uses you app's icon and only shows up when the attached Renderer is minimized.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -170,7 +170,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="M8hHbS4P2izPTBrXAeQqa7" Bounds="440,436,210,62" ShowValueBox="true" isIOBox="true" Value="Those items will be displayed as a small context menu when right-clicking your systray icon">
+          <Pad Id="M8hHbS4P2izPTBrXAeQqa7" Bounds="292,493,200,60" ShowValueBox="true" isIOBox="true" Value="Those items will be displayed as a small context menu when right-clicking your systray icon">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -179,7 +179,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="BA0B8IIXbrjMIp39QRrd40" Bounds="351,862,204,62" ShowValueBox="true" isIOBox="true" Value="Here, we show the attached Renderer when its notify-icon is double-clicked.">
+          <Pad Id="BA0B8IIXbrjMIp39QRrd40" Bounds="201,877,204,62" ShowValueBox="true" isIOBox="true" Value="Here, we show the attached Renderer when its notify-icon is double-clicked.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -188,7 +188,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="350,683,50,19" Id="OyLtsDBWimJOvPg3w73qvY">
+          <Node Bounds="202,729,50,19" Id="OyLtsDBWimJOvPg3w73qvY">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Decons" />
@@ -199,8 +199,8 @@
             <Pin Id="BQIjfULBu2OP4dAJxYXZPB" Name="Result 2" Kind="OutputPin" />
             <Pin Id="R73Vi7NJe0SPQBWfDlxtkl" Name="Result 3" Kind="OutputPin" />
           </Node>
-          <Pad Id="H3ACPhNEZjZMFC9mlJuRGH" Bounds="406,688,214,64" ShowValueBox="true" isIOBox="true" Value="For each element of the context menu, you get an observable that fires when it's clicked.">
-            <p:TypeAnnotation>
+          <Pad Id="H3ACPhNEZjZMFC9mlJuRGH" Bounds="258,717,214,64" ShowValueBox="true" isIOBox="true" Value="For each item of the context menu (2.), you get an observable that fires when said item is clicked.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -208,10 +208,11 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="HBGhRZZcbzyPPrH03x4hHc" Name="" Bounds="329,372,346,127" />
-          <Overlay Id="GwTCCM1QuwmNWZM0u9FGOF" Name="" Bounds="215,776,370,146" />
-          <Overlay Id="UloudQDVQqXPnpDTm2nI8Q" Name="" Bounds="328,668,327,95" />
-          <Node Bounds="310,46,105,19" Id="Hgv4JRRcV4OPyFvHozruj6">
+          <Overlay Id="HBGhRZZcbzyPPrH03x4hHc" Name="" Bounds="181,442,327,110">
+            <p:ColorIndex p:Type="Int32">3</p:ColorIndex>
+          </Overlay>
+          <Overlay Id="GwTCCM1QuwmNWZM0u9FGOF" Name="" Bounds="64,820,370,141" />
+          <Node Bounds="162,88,105,19" Id="Hgv4JRRcV4OPyFvHozruj6">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers.Text" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Text" />
@@ -229,7 +230,7 @@
             <Pin Id="Dwa0A3iw0C9L8HvwMKOJPl" Name="Output" Kind="OutputPin" />
             <Pin Id="T3fzHPQyl1QNxEtXRb914q" Name="Baseline Position" Kind="OutputPin" />
           </Node>
-          <Node Bounds="290,307,73,19" Id="BiS2LnS6seiOnNTDwCw9t1">
+          <Node Bounds="142,364,73,19" Id="BiS2LnS6seiOnNTDwCw9t1">
             <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetShowIcon" />
@@ -243,7 +244,7 @@
             </Pin>
             <Pin Id="P6P8R2Uy6RVQamOV6AOT61" Name="Input" Kind="OutputPin" />
           </Node>
-          <Node Bounds="290,274,49,19" Id="D7ps4RTj3OLLyNTRnt4UOs">
+          <Node Bounds="142,331,49,19" Id="D7ps4RTj3OLLyNTRnt4UOs">
             <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetIcon" />
@@ -257,15 +258,78 @@
             </Pin>
             <Pin Id="S445vc9G6c3NHn7DzszHye" Name="Input" Kind="OutputPin" />
           </Node>
-          <Pad Id="F8V78diSrE1MZqFuHUV8yp" Comment="Icon" Bounds="336,262,157,15" ShowValueBox="true" isIOBox="true" Value="..\Window\green.png">
+          <Pad Id="F8V78diSrE1MZqFuHUV8yp" Comment="Icon" Bounds="188,319,157,15" ShowValueBox="true" isIOBox="true" Value="..\Window\red.png">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KMQGcFoYZDHNema8EJtE01" Comment="Show Icon" Bounds="360,297,35,15" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="KMQGcFoYZDHNema8EJtE01" Comment="Show Icon" Bounds="212,354,35,15" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
+          </Pad>
+          <Overlay Id="E4rXeKeQYDJK90CltGjXzU" Name="" Bounds="127,172,400,227">
+            <p:ColorIndex p:Type="Int32">1</p:ColorIndex>
+          </Overlay>
+          <Pad Id="I9FNuIVbnyaMYBAjOT9j1e" Bounds="405,191,101,19" ShowValueBox="true" isIOBox="true" Value="Renderer setup">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="Nwb2B6GUUNTOB9b4Mc51Wy" Name="" Bounds="109,582,633,97">
+            <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
+          </Overlay>
+          <Overlay Id="R2aNfz9UvnQOJReBHfNVzW" Name="" Bounds="180,698,328,88">
+            <p:ColorIndex p:Type="Int32">3</p:ColorIndex>
+          </Overlay>
+          <Pad Id="HxBMHkN5Rf2LPKgyJEglmt" Bounds="48,629,35,27" ShowValueBox="true" isIOBox="true" Value="1.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PxrK9mO6EfjNVdBSBDKPs3" Bounds="48,477,35,27" ShowValueBox="true" isIOBox="true" Value="2.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="NhjIZ7hBfUNNxVzej30uaz" Bounds="48,733,35,27" ShowValueBox="true" isIOBox="true" Value="3.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="MxsOhxjTCW5NNBTQogHhVl" Bounds="480,598,247,78" ShowValueBox="true" isIOBox="true" Value="It also outputs a bunch of observables that fire when the systray icon is interacted : mouse click, double click, etc. Right clic/configure to enable those.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Jo0cysWRdhDPpUkilcqEKt" Bounds="10,884,35,27" ShowValueBox="true" isIOBox="true" Value="4.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
           </Pad>
         </Canvas>
         <Patch Id="BnA2SfGRGsXOVyMLku1hoK" Name="Create" />
@@ -285,11 +349,11 @@
         <Link Id="IXKyzEWIA9kN86Cnv0uNUR" Ids="LP8q8EZnx4dQTM8f4PsQjW,Ny70K1t7v0ULZxN3mYW3CT" />
         <Link Id="PfJybHCQsMyPUFnAyksacM" Ids="K3kYY2mblo0NowaFyo5XVi,DBbILzQzQVrLcsvJswO4Wd" />
         <Link Id="UehyONVIRhQMCdzHHLERZn" Ids="Dwa0A3iw0C9L8HvwMKOJPl,JjsNzf8zbeQO3vaEahhWlf" />
-        <Link Id="KMjfX0n49ouNZaFTX6b494" Ids="S445vc9G6c3NHn7DzszHye,BCiYaOraOSTLSrDycRmImF" />
         <Link Id="MVqdWFAE6ZPMFSJRu7j5mA" Ids="KMQGcFoYZDHNema8EJtE01,S9BO2L83vWLNZRL8CLVBfp" />
         <Link Id="GS3k94LMgyVMFAQOYrAcf0" Ids="MzDrqy2uGe6MXJi1a7Kaoi,EtlC0IN31quLrK7wy1uOP5" />
         <Link Id="H0bqppSpxvjLWZhc7ZuXV1" Ids="P6P8R2Uy6RVQamOV6AOT61,EdzYoOvLchFLEtGBjJ6Cr8" />
         <Link Id="G5IgSozzTxDMjFzpsK2HnJ" Ids="F8V78diSrE1MZqFuHUV8yp,GDlnh9OuNWxLREHzmTOvDG" />
+        <Link Id="TVrC3Fk7mM7PadwkNF5K1P" Ids="S445vc9G6c3NHn7DzszHye,BCiYaOraOSTLSrDycRmImF" />
       </Patch>
     </Node>
   </Patch>

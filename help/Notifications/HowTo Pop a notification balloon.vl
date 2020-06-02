@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="NO2sv8xzBnbLegUbe6HPJs" LanguageVersion="2020.1.2.135" Version="0.128">
+  <NugetDependency Id="TVZXREI2I6RMsmsMfNSmm6" Location="VL.CoreLib" Version="2020.1.2" />
+  <Patch Id="PS1gDKjJkNrOftwdpAbXze">
+    <Canvas Id="FQqMkJUYtdxQSWP1taw9DL" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="BzY4q7iV3gXL2mjEUMabzb">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="CzK5l7N4XKMNx7AD8igOdl">
+        <Canvas Id="AI4jtLfnzeiMafneqmAKJh" CanvasType="Group">
+          <Node Bounds="346,331" Id="BdCiKYrDcwkPKRxbpPJjXa">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="I8v8MClYnFfP588YcG7m2X" Name="Bounds" Kind="InputPin" DefaultValue="1179, 414, 600, 400">
+              <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
+                <Choice Kind="TypeFlag" Name="Rectangle" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="DpBZhnl8Wv8NClC42EtEmQ" Name="Input" Kind="InputPin" />
+            <Pin Id="BnSh0HWDRItMDRT7mEm9dj" Name="Color" Kind="InputPin" />
+            <Pin Id="OiYd7KcEXRpP5Dl8Mhe6Nr" Name="Clear" Kind="InputPin" />
+            <Pin Id="DSdseUBtZRjMYe6qOAMWvI" Name="Space" Kind="InputPin" />
+            <Pin Id="Lv3GbWrMpmfNEoovfD1qfA" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="DpKc1B87QtaPxvwA0rcxDm" Name="VSync" Kind="InputPin" />
+            <Pin Id="FuMYFx1G0yhLqh1PRIUEvI" Name="Enabled" Kind="InputPin" />
+            <Pin Id="TDKRehgRiiqOgezK1IdT69" Name="Form" Kind="OutputPin" />
+            <Pin Id="Eu9GJnejR5MNZI5IxfhUaw" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="GRnHV0qvZ3kLOyuCXDKxRX" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="346,674,286,19" Id="Oa1RxzGog7APQ2qtnZgxgV">
+            <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastSymbolSource="VL.WinFormsUtils.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="NotifyIcon" />
+            </p:NodeReference>
+            <Pin Id="M9QFUiHSSYUQKNm4272Fwi" Name="Input" Kind="InputPin" />
+            <Pin Id="KrRcXERwm1DMz9HLOn3xUE" Name="Force Show Notify Icon" Kind="InputPin" DefaultValue="True">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="L8waaYPjlJsOF9P0IT93Or" Name="Text" Kind="InputPin" />
+            <Pin Id="Juxu56PSEouNxe9y8II2x4" Name="Balloon Notification Title" Kind="InputPin" />
+            <Pin Id="UiN6hxODDqlOORNYnRx9EC" Name="Balloon Notification Text" Kind="InputPin" />
+            <Pin Id="P6Lcp5qNN0pO4swvL7KIFj" Name="Balloon Notification Icon" Kind="InputPin" />
+            <Pin Id="EFqPpzlQBdGPBdyk3PimBy" Name="Show Balloon Notification" Kind="InputPin" />
+            <Pin Id="BTro82VY20NNWvwdpoUgnM" Name="Context Menu Items" Kind="InputPin" />
+            <Pin Id="G7frb7aGF1JMYe5nDmsVya" Name="Output" Kind="OutputPin" />
+            <Pin Id="LgncKRLb62WLatI4AQ3iK8" Name="On Double Click" Kind="OutputPin" />
+            <Pin Id="H5vgDDrxoZUOlEITjYXSIi" Name="On Context Menu Items Click" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="366,217,85,19" Id="Q7MB2MmZl4LPOe4Uw2Thc2">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia.Interaction" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Button" />
+            </p:NodeReference>
+            <Pin Id="CUyZrv4WNYNLRoo8DIexUR" Name="Text" Kind="InputPin" DefaultValue="Click me &#xD;&#xA;to pop&#xD;&#xA;a notification">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="IZjJUG9oOsVPPWgOUDfTZA" Name="Bounds" Kind="InputPin" />
+            <Pin Id="LrClYPH8W0uO30SraSLtjV" Name="Paint" Kind="InputPin" />
+            <Pin Id="REwqVd4AY9HNgOGdL5NHPb" Name="Button" Kind="InputPin" />
+            <Pin Id="PcxmLMG9kc3OrCCS8L6hLx" Name="Clip" Kind="InputPin" />
+            <Pin Id="TKi5nklVjR1Pk04beuaaFN" Name="Output" Kind="OutputPin" />
+            <Pin Id="Q9lfQ5XiSZ2PmFpGodjD6o" Name="On Click" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="556,264,36,19" Id="Mo9cGrLFf2KOIB2NFjNnMJ">
+            <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="S+H" />
+              <CategoryReference Kind="Category" Name="Reactive" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="FpWC3buV2w3QSB5t7gBKFn" Name="Async Notifications" Kind="InputPin" />
+            <Pin Id="RizY4SyXnCHMuVuQwmHs1H" Name="Notifications" Kind="OutputPin" />
+            <Pin Id="MmoohDgNu6HQXtmE0fc0rp" Name="On Data" Kind="OutputPin" />
+          </Node>
+          <Pad Id="VXm3R5dUadDQCf8TzwhfDk" Comment="Balloon Notification Title" Bounds="468,529,147,15" ShowValueBox="true" isIOBox="true" Value="My custom notification 🧙‍♂️">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="MRl2Ii7iqVsO2IOVzW9kId" Comment="Balloon Notification Text" Bounds="509,561,148,60" ShowValueBox="true" isIOBox="true" Value="This texts shows up in the notification badge. How cool is that? Looks like it also works with emojis.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="IPYmSjdQNwLMlFAS2cFqkS" Comment="Balloon Notification Icon" Bounds="549,630,66,15" ShowValueBox="true" isIOBox="true" Value="Info">
+            <p:TypeAnnotation LastCategoryFullName="System.Windows.Forms" LastSymbolSource="System.Windows.Forms.dll">
+              <Choice Kind="TypeFlag" Name="ToolTipIcon" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="DhKshYLRWrXLWDIobTw5nW" Comment="Force Show Notify Icon" Bounds="388,424,35,15" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Overlay Id="VXmIG02Nd9SMOkOTmybfnS" Name="Notification balloon setup" Bounds="433,470,457,182">
+            <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
+          </Overlay>
+          <Overlay Id="D1DdQrO7IQbLcMx1Z6tdLd" Name="Make notify icon always visible" Bounds="367,372,301,80">
+            <p:ColorIndex p:Type="Int32">2</p:ColorIndex>
+          </Overlay>
+          <Pad Id="Cpam0lzYZEUOA1LVaLTPqr" Bounds="130,218,167,83" ShowValueBox="true" isIOBox="true" Value="The NotifyIcon node can also be used to show popup notifications in your system tray!">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="LRq1UnDphVgOkmhXEyHk5Y" Name="Create" />
+        <Patch Id="BEiOWVTOW7INEbOIxZ9ctg" Name="Update" />
+        <!--
+
+    ************************  ************************
+
+-->
+        <ProcessDefinition Id="AkhnnpXcRy4LTc0Pj2kTsI">
+          <Fragment Id="KHmWHjKMc2rN4bIYoyKgnX" Patch="LRq1UnDphVgOkmhXEyHk5Y" Enabled="true" />
+          <Fragment Id="NzBJy4sSZ8yOGpWG4puAIK" Patch="BEiOWVTOW7INEbOIxZ9ctg" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="EI1uytowGmhOOsZ9TWqbX7" Ids="TDKRehgRiiqOgezK1IdT69,M9QFUiHSSYUQKNm4272Fwi" />
+        <Link Id="QffcZHJq5gLP73eLZZ2FZ3" Ids="TKi5nklVjR1Pk04beuaaFN,DpBZhnl8Wv8NClC42EtEmQ" />
+        <Link Id="SGT7lePAPhfMcZGUAP78Rt" Ids="Q9lfQ5XiSZ2PmFpGodjD6o,FpWC3buV2w3QSB5t7gBKFn" />
+        <Link Id="Vr1utcBYIpkNmZTLI16f2E" Ids="MmoohDgNu6HQXtmE0fc0rp,EFqPpzlQBdGPBdyk3PimBy" />
+        <Link Id="VrcLdETZFCPL2MQTMHPZVz" Ids="VXm3R5dUadDQCf8TzwhfDk,Juxu56PSEouNxe9y8II2x4" />
+        <Link Id="I4IvgVWFW5EQX1QHofIb9j" Ids="MRl2Ii7iqVsO2IOVzW9kId,UiN6hxODDqlOORNYnRx9EC" />
+        <Link Id="UcLGl2BdViMPUSA7z8DwFo" Ids="IPYmSjdQNwLMlFAS2cFqkS,P6Lcp5qNN0pO4swvL7KIFj" />
+        <Link Id="Jk9KHEE7HzkPCNBi08B35x" Ids="DhKshYLRWrXLWDIobTw5nW,KrRcXERwm1DMz9HLOn3xUE" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="JgnlYbIhDbXMXyxf4cvE8M" Location="VL.Skia" Version="2020.1.2" />
+  <NugetDependency Id="BwlhGLfD3pCLXBtvtdMZoA" Location="VL.WinFormsUtils" Version="0.0.0.0" />
+</Document>
