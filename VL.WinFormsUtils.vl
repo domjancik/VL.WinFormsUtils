@@ -3430,7 +3430,7 @@
           <Patch Id="IjIYsbIDKInQBdX1rVUFNn" Name="Create" />
           <Patch Id="RoFtm744LkBPi7QPLd2Wpn" Name="Update">
             <Pin Id="SbV9fpUW9K3PWoNLZpGcNP" Name="Custom Icon" Kind="InputPin" Bounds="403,373" DefaultValue="">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Path" />
               </p:TypeAnnotation>
             </Pin>
