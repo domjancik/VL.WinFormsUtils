@@ -41,6 +41,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="NotifyIcon" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">Low</p:HelpFocus>
             <Pin Id="M9QFUiHSSYUQKNm4272Fwi" Name="Input" Kind="InputPin" />
             <Pin Id="KrRcXERwm1DMz9HLOn3xUE" Name="Force Show Notify Icon" Kind="InputPin" DefaultValue="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -122,11 +123,6 @@
         </Canvas>
         <Patch Id="LRq1UnDphVgOkmhXEyHk5Y" Name="Create" />
         <Patch Id="BEiOWVTOW7INEbOIxZ9ctg" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="AkhnnpXcRy4LTc0Pj2kTsI">
           <Fragment Id="KHmWHjKMc2rN4bIYoyKgnX" Patch="LRq1UnDphVgOkmhXEyHk5Y" Enabled="true" />
           <Fragment Id="NzBJy4sSZ8yOGpWG4puAIK" Patch="BEiOWVTOW7INEbOIxZ9ctg" Enabled="true" />
