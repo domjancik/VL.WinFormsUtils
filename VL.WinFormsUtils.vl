@@ -309,7 +309,7 @@
     ************************ BoundsWriter ************************
 
 -->
-      <Node Name="BoundsWriter" Bounds="926,329" Id="RBCYigthdW8MlydkOEHxvT" Summary="Store SkiaRenderer bounds after every change" Remarks="To be used with BoundsReader. Or just use StoreBounds which combines both." Tags="renderer,bounds,fullscreen,store">
+      <Node Name="BoundsWriter" Bounds="926,328" Id="RBCYigthdW8MlydkOEHxvT" Summary="Store SkiaRenderer bounds after every change" Remarks="To be used with BoundsReader. Or just use StoreBounds which combines both." Tags="renderer,bounds,fullscreen,store">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -488,7 +488,7 @@
     ************************ BoundsReader ************************
 
 -->
-      <Node Name="BoundsReader" Bounds="926,392" Id="OIGO0GvGo4bQImNsXYWVEm" Summary="Read back saved SkiaRenderer bounds" Remarks="To be used with BoundsWriter. Or just use StoreBounds which combines both." Tags="renderer,bounds,fullscreen,store">
+      <Node Name="BoundsReader" Bounds="926,390" Id="OIGO0GvGo4bQImNsXYWVEm" Summary="Read back saved SkiaRenderer bounds" Remarks="To be used with BoundsWriter. Or just use StoreBounds which combines both." Tags="renderer,bounds,fullscreen,store">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -707,7 +707,7 @@
     ************************ SetCursor ************************
 
 -->
-      <Node Name="SetCursor" Bounds="926,455" Id="NZ8zzgmAQaiQSlCGvZ87AM" Summary="Set the current cursor icon" Tags="form,renderer,cursor,pointer,arrow,icon">
+      <Node Name="SetCursor" Bounds="926,452" Id="NZ8zzgmAQaiQSlCGvZ87AM" Summary="Set the current cursor icon" Tags="form,renderer,cursor,pointer,arrow,icon">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -825,7 +825,7 @@
     ************************ SetAlwaysOnTop ************************
 
 -->
-      <Node Name="SetAlwaysOnTop" Bounds="926,518" Id="Gkz0s6FRHr8OyLvLls1jMi" Summary="Set a Form's On Top property" Remarks="A window set to be On Top will be always shown on top of all other windows, except those that also have it set." Tags="form,renderer,top,ontop">
+      <Node Name="SetAlwaysOnTop" Bounds="926,514" Id="Gkz0s6FRHr8OyLvLls1jMi" Summary="Set a Form's On Top property" Remarks="A window set to be On Top will be always shown on top of all other windows, except those that also have it set." Tags="form,renderer,top,ontop">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -907,7 +907,7 @@
     ************************ SetShowIcon ************************
 
 -->
-      <Node Name="SetShowIcon" Bounds="926,581" Id="PKkQuPE9ZUPL2c04PhbBJN" Summary="Set whether the Form's icon is shown in the window's corner" Tags="form,renderer,icon">
+      <Node Name="SetShowIcon" Bounds="926,576" Id="PKkQuPE9ZUPL2c04PhbBJN" Summary="Set whether the Form's icon is shown in the window's corner" Tags="form,renderer,icon">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -989,7 +989,7 @@
     ************************ SetBorderStyle ************************
 
 -->
-      <Node Name="SetBorderStyle" Bounds="926,644" Id="LZpzKgtSYnwMjzeIfKkJfl" Summary="Set a Form's look and behavior" Remarks="Use Sizable to enable Windows window layout shortcuts (Win+Left/Right)" Tags="form,renderer,border,style,look">
+      <Node Name="SetBorderStyle" Bounds="926,638" Id="LZpzKgtSYnwMjzeIfKkJfl" Summary="Set a Form's look and behavior" Remarks="Use Sizable to enable Windows window layout shortcuts (Win+Left/Right)" Tags="form,renderer,border,style,look">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1071,7 +1071,7 @@
     ************************ SetCloseHandler ************************
 
 -->
-      <Node Name="SetCloseHandler" Bounds="926,833" Id="O3a8rVsF04rNsM1xdH1SnB" Summary="Set what happens when a Form is closed" Remarks="Use the bundled CloseDialogHandler to show a dialog or roll your own." Tags="form,renderer,prevent,close">
+      <Node Name="SetCloseHandler" Bounds="926,824" Id="O3a8rVsF04rNsM1xdH1SnB" Summary="Set what happens when a Form is closed" Remarks="Use the bundled CloseDialogHandler to show a dialog or roll your own." Tags="form,renderer,prevent,close">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1225,7 +1225,7 @@
           <Link Id="O9tW5TpZJCHNpClQSRcjqY" Ids="Ghp49UxX4iWMyOGYOcaj2h,J4M6ErRWTEBLrDmEp1gbXh" />
         </Patch>
       </Node>
-      <Canvas Id="Qzt2EAN86KJNu7330iYlfb" Name="CloseHandlers" Position="1097,835">
+      <Canvas Id="Qzt2EAN86KJNu7330iYlfb" Name="CloseHandlers" Position="1097,824">
         <!--
 
     ************************ ShowClosingDialog ************************
@@ -1555,7 +1555,7 @@
     ************************ SetControlBox ************************
 
 -->
-      <Node Name="SetControlBox" Bounds="926,707" Id="S0mrHUCMNGlP2WurQwx5N4" Summary="Set whether a Form's window will show min, max, close buttons" Tags="form,renderer,minimize,maximize,close,button">
+      <Node Name="SetControlBox" Bounds="926,700" Id="S0mrHUCMNGlP2WurQwx5N4" Summary="Set whether a Form's window will show min, max, close buttons" Tags="form,renderer,minimize,maximize,close,button">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1637,7 +1637,7 @@
     ************************ PreventClose ************************
 
 -->
-      <Node Name="PreventClose" Bounds="926,896" Id="RfnNmRx96NyLRqV0O48Mcf" Summary="Always prevent a Form from closing" Tags="form,renderer,prevent,close">
+      <Node Name="PreventClose" Bounds="926,886" Id="RfnNmRx96NyLRqV0O48Mcf" Summary="Always prevent a Form from closing" Tags="form,renderer,prevent,close">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1698,7 +1698,7 @@
     ************************ SetIcon ************************
 
 -->
-      <Node Name="SetIcon" Bounds="926,770" Id="IeT3hZ50KOtL38gKangsPF" Summary="Set a Form's icon" Remarks="All standard image formats are supported." Tags="form,renderer,icon">
+      <Node Name="SetIcon" Bounds="926,762" Id="IeT3hZ50KOtL38gKangsPF" Summary="Set a Form's icon" Remarks="All standard image formats are supported." Tags="form,renderer,icon">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1958,7 +1958,7 @@
     ************************ SetMinimizeBox ************************
 
 -->
-      <Node Name="SetMinimizeBox" Bounds="1099,707" Id="Saq1rxuUku6MucLBlJKkPI" Summary="Set whether a Form's window will show the Minimize button" Remarks="ToolWindow border styles never show this button." Tags="form,renderer,minimize,button">
+      <Node Name="SetMinimizeBox" Bounds="1099,700" Id="Saq1rxuUku6MucLBlJKkPI" Summary="Set whether a Form's window will show the Minimize button" Remarks="ToolWindow border styles never show this button." Tags="form,renderer,minimize,button">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -2040,7 +2040,7 @@
     ************************ SetMaximizeBox ************************
 
 -->
-      <Node Name="SetMaximizeBox" Bounds="1287,708" Id="BkqNU8jccW7MIaZfWw7hnA" Summary="Set whether a Form's window will show the Maximize button" Remarks="ToolWindow border styles never show this button." Tags="form,renderer,maximize,button">
+      <Node Name="SetMaximizeBox" Bounds="1287,700" Id="BkqNU8jccW7MIaZfWw7hnA" Summary="Set whether a Form's window will show the Maximize button" Remarks="ToolWindow border styles never show this button." Tags="form,renderer,maximize,button">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -2122,7 +2122,7 @@
     ************************ Close ************************
 
 -->
-      <Node Name="Close" Bounds="926,959" Id="ROPzasO2TeMOSMVaAWc9ar" Summary="Close a Form (Renderer)" Tags="form,renderer,close">
+      <Node Name="Close" Bounds="926,948" Id="ROPzasO2TeMOSMVaAWc9ar" Summary="Close a Form (Renderer)" Tags="form,renderer,close">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -3760,7 +3760,7 @@
     ************************ Minimize ************************
 
 -->
-      <Node Name="Minimize" Bounds="926,1027" Id="HAfwv50UHguOKsrJlRjxNs" Summary="Minimize a Form (Renderer)" Tags="form,renderer,minimize,window">
+      <Node Name="Minimize" Bounds="926,1010" Id="HAfwv50UHguOKsrJlRjxNs" Summary="Minimize a Form (Renderer)" Tags="form,renderer,minimize,window">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -3841,7 +3841,7 @@
     ************************ Show ************************
 
 -->
-      <Node Name="Show" Bounds="925,1144" Id="JU0xwnNQdHwMOa55d59cjA" Summary="Show a Form (Renderer)" Remarks="Restores the Form's window state to Normal" Tags="form,renderer,restore,show,resume,window">
+      <Node Name="Show" Bounds="925,1134" Id="JU0xwnNQdHwMOa55d59cjA" Summary="Show a Form (Renderer)" Remarks="Restores the Form's window state to Normal" Tags="form,renderer,restore,show,resume,window">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -3922,7 +3922,7 @@
     ************************ Maximize ************************
 
 -->
-      <Node Name="Maximize" Bounds="922,1084" Id="RFGz9GmGjvvOtOFsVat625" Summary="Maximize a Form (Renderer)" Tags="form,renderer,maximize,window">
+      <Node Name="Maximize" Bounds="922,1072" Id="RFGz9GmGjvvOtOFsVat625" Summary="Maximize a Form (Renderer)" Tags="form,renderer,maximize,window">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -4003,7 +4003,7 @@
     ************************ IconFromFile (Internal) ************************
 
 -->
-      <Node Name="IconFromFile (Internal)" Bounds="1100,773" Id="JkWBFyZyLrsOIaAfVs6bhe" Summary="Outputs an Icon from a Path. All standard file formats are supported.">
+      <Node Name="IconFromFile (Internal)" Bounds="1100,762" Id="JkWBFyZyLrsOIaAfVs6bhe" Summary="Outputs an Icon from a Path. All standard file formats are supported.">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
