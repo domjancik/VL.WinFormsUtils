@@ -5,7 +5,7 @@
     <version>$version$</version>
     <title>VL.WinFormsUtils</title>
     <authors>Dominik Jancik (domj), sebescudie</authors>
-    <owners>domjancik</owners>
+    <owners>domj</owners>
     <projectUrl>https://github.com/domjancik/VL.WinFormsUtils</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Nodes for VL, exposing some useful functions of the Windows Forms API</summary>
