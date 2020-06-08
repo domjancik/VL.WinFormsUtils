@@ -3977,7 +3977,7 @@
                 <Choice Kind="TypeFlag" Name="Form" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="NEYbGDJ7vuLMS6qMcVTmat" Name="Minimize" Kind="InputPin" Bounds="516,469" DefaultValue="False">
+            <Pin Id="NEYbGDJ7vuLMS6qMcVTmat" Name="Maximize" Kind="InputPin" Bounds="516,469" DefaultValue="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
