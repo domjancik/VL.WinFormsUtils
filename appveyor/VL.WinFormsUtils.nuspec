@@ -22,6 +22,6 @@
     <file src="..\help\Examples\*.png" target="help\Examples\" exclude="" />
     <file src="..\help\Window\*.vl" target="help\Window\" exclude="" />
     <file src="..\help\Window\*.png" target="help\Window\" exclude="" />
-    <file src="..\help\Notifications\*.vl" target="help\Window\" exclude="" />
+    <file src="..\help\Notifications\*.vl" target="help\Notifications\" exclude="" />
   </files>
 </package>
