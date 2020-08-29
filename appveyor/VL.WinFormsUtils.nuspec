@@ -4,14 +4,14 @@
     <id>VL.WinFormsUtils</id>
     <version>$version$</version>
     <title>VL.WinFormsUtils</title>
-    <authors>Dominik Jancik</authors>
+    <authors>Dominik Jancik (domj), sebescudie</authors>
     <owners>domj</owners>
-    <projectUrl>https://github.com/dominikjancik/VL.WinFormsUtils</projectUrl>
+    <projectUrl>https://github.com/domjancik/VL.WinFormsUtils</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>Nodes for VL exposing some useful functions of the Windows Forms API</summary>
-    <description>WinForms utils for VL. Store Skia Renderer size, location and fullscreen state to file. Set useful properties on Form windows.</description>
+    <summary>Nodes for VL, exposing some useful functions of the Windows Forms API</summary>
+    <description>WinForms utils for VL. Store Skia Renderer size, location and fullscreen state to file. Set useful properties on Form based windows. Use system tray icons and show notifications.</description>
     <copyright>Copyright © 2020 Dominik Jancik</copyright>
-    <tags>VL, winforms, windows forms, renderer, skia</tags>
+    <tags>VL, winforms, windows forms, renderer, skia, tray</tags>
 	<license type="expression">MIT</license>
     <dependencies>
     </dependencies>
@@ -22,5 +22,6 @@
     <file src="..\help\Examples\*.png" target="help\Examples\" exclude="" />
     <file src="..\help\Window\*.vl" target="help\Window\" exclude="" />
     <file src="..\help\Window\*.png" target="help\Window\" exclude="" />
+    <file src="..\help\Notifications\*.vl" target="help\Notifications\" exclude="" />
   </files>
 </package>
